@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/pstrip"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:text="Lásko táto mini aplikácia je venovaná pre teba. Za to, že si ma podporovala v programovaní a ja som neskôr povedal, že ti za to raz vytvorím aplikáciu len pre teba, tak tu je."
+        android:layout_marginBottom="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:text="Tak teda dúfam že ťa poteší a že sa ti bude páčiť"
+        />
+
+
+
+    <TextView
+
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Milujem ťa, Láska ♥"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <TextView android:layout_marginTop="120dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sú tu otázky aj na dátumy, tak pri nich treba dať pozor, píšu sa vo forme XX.XX., ešte treba daváť pozor na medzeru na konci riešenia a všetko musí byť bez diakritiky."
+    android:textSize="20sp"
+    android:textStyle="italic"
+
+    />
+    <Button
+        android:id="@+id/button"
+        android:onClick="switch"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu ťa čaká pár otázok ( ◑‿◑)"
+        android:textSize="25sp"
+        android:backgroundTint="@color/white"
+
+        />
+
+
+
+</LinearLayout>

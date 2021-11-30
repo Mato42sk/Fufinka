@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/pink"
+    android:id="@+id/cnstLayout"
+    android:padding="10dp">
+
+
+  <android.support.v7.widget.LinearLayoutCompat
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical">
+
+      <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_weight="3"
+      >
+
+          <TextView
+              style="@style/question"
+              android:text="V ktorom mesiaci sme spolu prvý krát spali?" />
+
+          <TextView
+              style="@style/question"
+              android:text="Ktorý mesiac sme boli v Moravií?" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="1"
+          >
+
+          <EditText
+              android:id="@+id/editTV1"
+              style="@style/Answer" />
+
+          <Button
+              style="@style/btn"
+              android:id="@+id/btn1"
+              android:onClick="Check1"
+              />
+
+          <EditText
+              android:id="@+id/editTV2"
+              style="@style/Answer" />
+
+          <Button
+              style="@style/btn"
+              android:id="@+id/btn2"
+              android:onClick="Check2" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="3"
+          >
+
+          <TextView
+              style="@style/question"
+              android:text="Kedy máme výročie?" />
+
+          <TextView
+              style="@style/question"
+              android:text="Kedy sme mali venček?" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="1"
+          >
+
+          <EditText
+              android:id="@+id/editTV3"
+              style="@style/Answer" />
+
+          <Button
+              android:id="@+id/btn3"
+              style="@style/btn"
+              android:onClick="Check3" />
+
+          <EditText
+              android:id="@+id/editTV4"
+              style="@style/Answer" />
+
+          <Button
+              style="@style/btn"
+              android:id="@+id/btn4"
+              android:onClick="Check4" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="3"
+          >
+          <TextView
+              style="@style/question"
+              android:text="Ktorý darček od teba najviac milujem?" />
+
+          <TextView
+              style="@style/question"
+              android:text="Naša spoločná postavička na m" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="1"
+          >
+
+          <EditText
+              android:id="@+id/editTV5"
+              style="@style/Answer" />
+
+          <Button
+              style="@style/btn"
+              android:id="@+id/btn5"
+              android:onClick="Check5" />
+
+          <EditText
+              android:id="@+id/editTV6"
+              style="@style/Answer" />
+
+          <Button
+              style="@style/btn"
+              android:id="@+id/btn6"
+              android:onClick="Check6" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="3"
+          >
+          <TextView
+              style="@style/question"
+              android:text="Na akom filme sme boli v Kine?" />
+
+          <TextView
+              style="@style/question"
+              android:text="Aký drink som ti pripravil prvý krát?" />
+
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_weight="1"
+          >
+
+          <EditText
+              android:id="@+id/editTV7"
+              style="@style/Answer" />
+
+          <Button
+              android:id="@+id/btn7"
+              style="@style/btn"
+              android:onClick="Check7" />
+
+          <EditText
+              android:id="@+id/editTV8"
+              style="@style/Answer" />
+
+          <Button
+              android:id="@+id/btn8"
+              android:onClick="Check8"
+              style="@style/btn" />
+
+      </LinearLayout>
+
+  </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgView1"
+                style="@style/img"/>
+            <ImageView
+                android:id="@+id/imgView2"
+               style="@style/img"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgView3"
+                style="@style/img"/>
+            <ImageView
+                android:id="@+id/imgView4"
+                style="@style/img"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgView5"
+                style="@style/img"/>
+
+            <ImageView
+                android:id="@+id/imgView6"
+                style="@style/img"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgView7"
+                style="@style/img"/>
+
+            <ImageView
+                android:id="@+id/imgView8"
+                style="@style/img"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+</android.support.constraint.ConstraintLayout>
